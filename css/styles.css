@@ -15,8 +15,20 @@ body {
     background-color: #8E5D8B;
     padding: 20px;
     text-align: center;
-    height: 50vh;
     /*height es para que el header ocupe mitad de pantalla o toda o lo que elijamos*/
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.header p {
+    font-size: 40px;
+}
+
+.column h2 {
+    color: #72A96E;
+    text-align: center;
 }
 
 
@@ -36,6 +48,24 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/*Galeria de Imágenes*/
+
+.gallery {
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery .desc {
+    padding: 15px;
+    text-align: center;
 }
 
 
