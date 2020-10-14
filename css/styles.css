@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
-    font-size: 20px;
 }
 
 body {
@@ -12,33 +11,40 @@ body {
 /* Style the header */
 
 .header {
-    background-color: #8E5D8B;
-    padding: 20px;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
     text-align: center;
-    /*height es para que el header ocupe mitad de pantalla o toda o lo que elijamos*/
 }
 
 .header h1 {
     font-size: 60px;
+    background-color: white;
 }
 
 .header p {
     font-size: 40px;
-}
-
-.column h2 {
-    color: #72A96E;
-    text-align: center;
+    background-color: white;
 }
 
 
 /* Ejemplo de Estilos por Clase*/
 
-.column {
+.one-column {
     float: left;
     width: 100%;
     padding: 20px 20%;
     /* Este es el orden del padding --> padding: top left bottom right;*/
+}
+
+.one-column h1,
+.one-column h2 {
+    text-align: center;
+}
+
+#cadetblue {
+    background-color: #838383;
 }
 
 
@@ -51,20 +57,29 @@ body {
 }
 
 
-/*Galeria de Imágenes*/
+/*Two columns*/
 
-.gallery {
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+
+/*Three columns*/
+
+.three-column {
     padding: 20px;
     float: left;
     width: 33.33%;
 }
 
-.gallery img {
+.three-column img {
     width: 100%;
 }
 
-.gallery .desc {
-    padding: 15px;
+.three-column .desc {
+    padding: 10px;
     text-align: center;
 }
 
