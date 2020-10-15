@@ -110,10 +110,15 @@ body {
 }
 
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout*/
 
 @media screen and (max-width:600px) {
-    .one-column {
+    .two-column,
+    .three-column,
+    .four-column {
         width: 100%;
+    }
+    .header {
+        background-image: url(../img/fondo2.jpg);
     }
 }
